@@ -70,3 +70,7 @@ _by Katya Anguisaca_
 
 ---
 ## Rolling Back Changes
+
+---
+## Error Handling
+  During the process of coding, many errors can be made. Such errors can include that you `init` in the wrong directory or you might want to completely remove a repository. 
