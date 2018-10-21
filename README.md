@@ -9,7 +9,7 @@ _by Katya Anguisaca_
  **Git**: Is the version control that keeps snapshots of the code. It does not require github. In other words, git is a command line tool.
   
  **Github**:Is the service for projects that use git. Github stores code in the cloud, visually tracks changes in the 
- code, easily collaborates on files, and requires 'git'.
+ code, easily collaborates on files and requires 'git'.
   
 
 ---
@@ -35,7 +35,7 @@ _by Katya Anguisaca_
  13. Then click on "New Repository"
  14. Name your repository the same way you named your directory in cloud 9 (first-repo). The names always have to match!
  15. Now, click on create repository. If you were asked to verify your email do it. However, if you were asked but didn't do it don't worry about it.
- 16. Make sure that you have SSH selected.
+ 16. Make sure that you have SSH selected
  17. Scroll down to the section that says "..or push an existing repository to the command line"
  18. Copy "git remote add origin..." and "git push..." one at a time to your terminal in your firs-repo README file (where the rest of the code is)
  19. Once this is all done and you have done the remote command, refresh github.
