@@ -25,7 +25,18 @@ _by Katya Anguisaca_
  * Create a password that you will remember or write it down
  * Then click on "create account"
  * Once you have created your own personal account go ahead and follow the instructions presented by gihub. Choose your plan and then tailor your experience
- * **SSH Key Setup** :
+  
+ **SSH Key Setup** :
+ * go into your github account
+ * On the top-right corner press on your profile icon and then press on settings
+ * When you see the left side bar press press on SSH and GPG
+ * Then create a new SSH key (you shouls see the icon "new SSH key/Press on that")
+ * Title your new SSH key "cloud9"
+ * Then switch to your cloud9 tab. Once you have switched to your cloud9 tab, press on the top right and press on gear icon
+ * Then press SSH keys tab 
+ * Copy and paste the 2nd SSH key int github (private). It should beging with ssh-rsa
+ * Then add SSH key. Go to cloud9 and 
+ * 
 
 
 ---
