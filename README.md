@@ -77,7 +77,10 @@ _by Katya Anguisaca_
     git commit is a command that takes a snapshot of the files on the stage. When writing this command, there is a essage that needs to be typed. The message should be present-tense and describe what was modified in this snapsht (create HTML Template)(take a picture). For example, if you have made made changes in the section called "apples", your commit command should look something like _'git commit -m "update apple section"_.
 * **git push:**
     git push is a command that sends the commits from the local repo to the remote repo (up to the cloud :Github). For example, in order for the commits to be sent from the local repo to the remote repo you being by typing _"git add ."_ From here, you type in "_git status_" to see what files have been edited. Since you have made changes and already typed in the command "_git add ._" you see the files that are staged for the commit and they will appear in green. Once you see that the files are staged for the commit, you commit by addig a message which will look like "_git commit -m "type message here"_".Once everything has been commited, you then do "_git push_" to send he commits o the remote repo. 
-    
+* **git remote:**
+   A remote in git is seen as a bookmark for other repositories from which the user may wish tp pull or push the code. The repository that was bookmarked may be on your local computer at a different folder, in a remote server or it might be the repository itself. There are two git commands that consist of _'git remote_'. The first command that consists of git remote is 'git remote add origin URL'. This command allows you to add the remote repo as opposed to editing or removing an existing one. 
+   The second command that consists of '_git remote_'is known ass '_git remote -v_'. This command allows the user to set up a connection between the current repository and the external one (the one that lives on github)
+
 
 
 
