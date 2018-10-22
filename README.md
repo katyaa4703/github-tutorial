@@ -16,7 +16,7 @@ _by Katya Anguisaca_
 ## Initial Setup
  The Initial Steup consists of creating a github account if you have not already dne so and the SSH Key setup.
  
- **Github Accoutn Setup**:
+ **Github Account Setup**:
  * Open up your browser
  * Type in "github create account" and press the first result you see.  [Github.com](https://github.com/join)
  * Once you have clicked on the websit begin creating your account
@@ -35,8 +35,10 @@ _by Katya Anguisaca_
  * Then switch to your cloud9 tab. Once you have switched to your cloud9 tab, press on the top right and press on gear icon
  * Then press SSH keys tab 
  * Copy and paste the 2nd SSH key int github (private). It should beging with ssh-rsa
- * Then add SSH key. Go to cloud9 and 
- * 
+ * Then add SSH key. Go to cloud9  
+ * Open github-learning IDE
+ * In the workspace put in " ssh -T git@github.com"
+ * Once ths is done, you will see "Hi <your username>! You've succesfully authenticated but github does not provie shell acces."
 
 
 ---
