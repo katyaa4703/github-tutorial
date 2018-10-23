@@ -86,7 +86,11 @@ _by Katya Anguisaca_
 
 ---
 ## Rolling Back Changes
-
+ While creating code, there will be code that you might want to undo or revise. There will be certsin commands that you will want to undo . For example:
+ * To undo "git edit" you will have to type in "git checkout -- filename"
+ * To undo "git add " you will have to type in "git reset HEAD-1 filename"
+ * To undo "git push" you will have to type in "git push origin --delete <branch_name".
+ * To undo "git commit" you will have to type in " git reset HEAD^".
 ---
 ## Error Handling
   During the process of coding, many errors can be made. Such errors can include that you `init` in the wrong directory or you might want to completely remove a repository. 
