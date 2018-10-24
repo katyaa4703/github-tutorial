@@ -14,7 +14,7 @@ _by Katya Anguisaca_
 
 ---
 ## Initial Setup
- The Initial Steup consists of creating a github account if you have not already dne so and the SSH Key setup.
+ The Initial Steup consists of creating a github account if you have not already done so and the SSH Key setup.
  
  **Github Account Setup**:
  * Open up your browser
@@ -68,17 +68,17 @@ _by Katya Anguisaca_
 
 ---
 ## Workflow & Commands
- There are many commands that can be used to create code in github.Such commands include: 
+ There are many commands that can be used to create code in github. Such commands include: 
  * **git status:**
     git status is a command that allows you to track all the work/code you have been doing so far. It's a command that allows you to see which files have been edited since the last commit. These files will appear in red. In addition to this, this command will allow you to see the files that are staged for the commit. The files that are staged for the commit will appear in green.
 * **git add:** 
     git add is a command used to add the current/entire directory. This command adds all the files that have changed. However, this only works for new or modified files. It will not add to the stage any deleted or renamed files. For example if you want to add a file called "chocolate.txt" in a directory you would type in _"git add chocolate.text"_. Since git add does not add any deleted or renamed files to the stage, you will be able to use _"git add --all"_ to include all changes. 
 * **git commit:**
-    git commit is a command that takes a snapshot of the files on the stage. When writing this command, there is a essage that needs to be typed. The message should be present-tense and describe what was modified in this snapsht (create HTML Template)(take a picture). For example, if you have made made changes in the section called "apples", your commit command should look something like _'git commit -m "update apple section"_.
+    git commit is a command that takes a snapshot of the files on the stage. When writing this command, there is a message that needs to be typed. The message should be present-tense and describe what was modified in this snapsht (create HTML Template)(take a picture). For example, if you have made made changes in the section called "apples", your commit command should look something like _'git commit -m "update apple section"_.
 * **git push:**
     git push is a command that sends the commits from the local repo to the remote repo (up to the cloud :Github). For example, in order for the commits to be sent from the local repo to the remote repo you being by typing _"git add ."_ From here, you type in "_git status_" to see what files have been edited. Since you have made changes and already typed in the command "_git add ._" you see the files that are staged for the commit and they will appear in green. Once you see that the files are staged for the commit, you commit by addig a message which will look like "_git commit -m "type message here"_".Once everything has been commited, you then do "_git push_" to send he commits o the remote repo. 
 * **git remote:**
-   A remote in git is seen as a bookmark for other repositories from which the user may wish tp pull or push the code. The repository that was bookmarked may be on your local computer at a different folder, in a remote server or it might be the repository itself. There are two git commands that consist of _'git remote_'. The first command that consists of git remote is 'git remote add origin URL'. This command allows you to add the remote repo as opposed to editing or removing an existing one. 
+   A remote in git is seen as a bookmark for other repositories from which the user may wish to pull or push the code. The repository that was bookmarked may be on your local computer at a different folder, in a remote server or it might be the repository itself. There are two git commands that consist of _'git remote_'. The first command that consists of git remote is 'git remote add origin URL'. This command allows you to add the remote repo as opposed to editing or removing an existing one. 
    The second command that consists of '_git remote_'is known ass '_git remote -v_'. This command allows the user to set up a connection between the current repository and the external one (the one that lives on github)
 
 
@@ -86,7 +86,7 @@ _by Katya Anguisaca_
 
 ---
 ## Rolling Back Changes
- While creating code, there will be code that you might want to undo or revise. There will be certsin commands that you will want to undo . For example:
+ While creating code, there will be code that you might want to undo or revise. There will be certain commands that you will want to undo. For example:
  * To undo "git edit" you will have to type in "git checkout -- filename"
  * To undo "git add " you will have to type in "git reset HEAD-1 filename"
  * To undo "git push" you will have to type in "git push origin --delete <branch_name".
