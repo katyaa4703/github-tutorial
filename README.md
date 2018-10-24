@@ -25,6 +25,8 @@ _by Katya Anguisaca_
  * Create a password that you will remember or write it down
  * Then click on "create account"
  * Once you have created your own personal account go ahead and follow the instructions presented by gihub. Choose your plan and then tailor your experience
+ 
+The setup of an SSH Key is very important. The reason why it's important is because 
   
  **SSH Key Setup** :
  * go into your github account
