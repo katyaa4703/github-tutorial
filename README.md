@@ -26,7 +26,9 @@ _by Katya Anguisaca_
  * Then click on "create account"
  * Once you have created your own personal account go ahead and follow the instructions presented by gihub. Choose your plan and then tailor your experience
  
-The setup of an SSH Key is very important. The reason why it's important is because 
+The setup of an SSH Key is very important. By having an SSH key you can connect and authenticate to remote servers and services. By having and SSH key, you can connect 
+to Github without needing your username or password. SSH keys come in pairs. One of the pairs is a public key and the other one is a private key. The public key gets shared with services like Github and the private key that ges stored in 
+your computer only. If the key matches then you are granted acces. 
   
  **SSH Key Setup** :
  * go into your github account
@@ -95,4 +97,5 @@ The setup of an SSH Key is very important. The reason why it's important is beca
  * To undo "git commit" you will have to type in " git reset HEAD^".
 ---
 ## Error Handling
-  During the process of coding, many errors can be made. Such errors can include that you `init` in the wrong directory or you might want to completely remove a repository. 
+  During the process of coding, many errors can be made. Such errors can include that you `init` in the wrong directory or you might want to completely remove a repository. If you ever 
+  init in the wrong directory, you can simply just type : **'rm -rf .git'**
