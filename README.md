@@ -76,7 +76,7 @@ your computer only. If the key matches then you are granted acces. The following
  * **git status:**
     `git status` is a command that allows you to track all the work/code you have been doing so far. It's a command that allows you to see which files have been edited since the last commit. These files will appear in red. In addition to this, this command will allow you to see the files that are staged for the commit. The files that are staged for the commit will appear in green.
 * **git add:** 
-    `git add` is a command used to add the current/entire directory. This command adds all the files that have changed. However, this only works for new or modified files. It will not add to the stage any deleted or renamed files. For example if you want to add a file called "chocolate.txt" in a directory you would type in _"git add chocolate.text"_. Since git add does not add any deleted or renamed files to the stage, you will be able to use _"git add --all"_ to include all changes. 
+    `git add` is a command used to add the current/entire directory. This command adds all the files that have changed. However, this only works for new or modified files. It will not add to the stage any deleted or renamed files. For example if you want to add a file called "chocolate.txt" in a directory you would type in `git add chocolate.text`. Since git add does not add any deleted or renamed files to the stage, you will be able to use `git add --all` to include all changes. 
 * **git commit:**
     `git commit` is a command that takes a snapshot of the files on the stage. When writing this command, there is a message that needs to be typed. The message should be present-tense and describe what was modified in this snapsht (create HTML Template)(take a picture). For example, if you have made made changes in the section called "apples", your commit command should look something like `git commit -m update apple section`.
 * **git push:**
@@ -96,6 +96,7 @@ your computer only. If the key matches then you are granted acces. The following
  * To undo `git push` you will have to type in `git push origin --delete <branch_name`.
  * To undo `git commit` you will have to type in  `git reset HEAD^`.
 ---
+
 ## Error Handling
  * During the process of coding, many errors can be made. Such errors can include that you `init` in the wrong directory or you might want to      completely remove a repository. If you ever init in the wrong directory, you can simply just type : **`rm -rf .git`**
  * If you want to completely remove the remote repository, you type in the command : **`git remote rm`**
@@ -103,5 +104,21 @@ your computer only. If the key matches then you are granted acces. The following
   of your repo).
  * If you have a local and remote repository and you want to rename a remote repository, you first complete the previous bullet point that was listed. 
    Then you go ahead and rename your repo in github. You press settings and where it says "repository name" you rename the repository. 
+
+---
+## Collaboration
+ There are other activities that can be done in github. Such activities include **cloning**,**forking**, **pull requests** and **pull**
+ * Cloning : Cloning refers to when the user makes a copy from the remote to the local. Your entire repository with all of its commitshas a remote that lives on github.
+   Now in order to clone you go into your github, press on the icon on the right corner, press "your repositories". Then, click on your repo and on the right side bar press 
+  "Clone or download". Make sure it says **SSH!**. If it does not say **SSH** click on where it says "**use SSH**". Then click on the little button to copy the link.From here,
+   go into your c.9 and on the terminal type in the command `git clone` and after the `clone`, paste the url. 
+ * Fork : Forking is when coders make a copy of someone else's work to start their own independent work in it. This creates a seperate piece of code/software. In order to beging,
+   when you fork someone else's repo you have to remote a copy of **THEIR** **remote** repo. Then you can clone your remote to your local machine. From here you will have the permission to push to your remote. To begin forking, you press on the link to someone else's github repository. Then ,press on the icon that says "fork" from there, you will have to clone. You then copy the **SSH** url just like you did with yours, go to your cloud 9 and `git clone "paste url here"`. From here, you can push your changes up to your remote and you will see them on Github!.
+
+
+
+
+
+
 
 
