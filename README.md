@@ -115,7 +115,7 @@ your computer only. If the key matches then you are granted acces. The following
  * **Fork:** Forking is when coders make a copy of someone else's work to start their own independent work in it. This creates a seperate piece of code/software. To start off,
    when you fork someone else's repo you have to remote a copy of **THEIR** **remote** repo. Then you can clone your remote to your local machine. From here you will have the permission to push to your remote. To begin forking, you press on the link to someone else's github repository. Then,press on the icon that says "fork". From here, you will  have to clone. You then copy the **SSH** url just like you did with yours, go to your cloud9 and `git clone "paste url here"`. From here, you can push your changes up to your remote and you will see them on Github!
  * **Pull Requests:** In order to submit a pull request, you must have first forked someone else's repo, then clone your forked remote to your local. After making changes and   commits, you push up to your remote. Once you have pushed up to your remote, you can submit a pull request on **github.com** to whoever's worked you forked. Your pull request is then either accpeted or rejected. 
-* **git pull:** Once you have requested a pull request to your partner/coder, they will use `git pull` to see/edit your changes on their local repo.
+* **git pull:** Once you have requested a pull request to your partner/coder,they will use `git pull` to see/edit your changes on their local repo.
 
 
 
