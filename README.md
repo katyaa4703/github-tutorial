@@ -19,7 +19,7 @@ _by Katya Anguisaca_
  **Github Account Setup**:
  * Open up your browser
  * Type in "github create account" and press the first result you see.  [Github.com](https://github.com/join)
- * Once you have clicked on the websit begin creating your account
+ * Once you have clicked on the website begin creating your account
  * Create your username
  * Then type in an email adress to associate it with your account
  * Create a password that you will remember or write it down
@@ -47,7 +47,7 @@ your computer only. If the key matches then you are granted acces. The following
 
 ---
 ## Repository Setup
- There are a few steps to follow yo setup your repository. The steps are the following:
+ There are a few steps to follow to setup your repository. The steps are the following:
  1. In cloud 9, open up a new terminal
  2. Cd into workspace (cd ~/workspce)
  3. Make a new directory called first-repo (mkdir first-repo)
@@ -80,7 +80,7 @@ your computer only. If the key matches then you are granted acces. The following
 * **git commit:**
     `git commit` is a command that takes a snapshot of the files on the stage. When writing this command, there is a message that needs to be typed. The message should be present-tense and describe what was modified in this snapsht (create HTML Template)(take a picture). For example, if you have made made changes in the section called "apples", your commit command should look something like `git commit -m update apple section`.
 * **git push:**
-    `git push` is a command that sends the commits from the local repo to the remote repo (up to the cloud :Github). For example, in order for the commits to be sent from the local repo to the remote repo you being by typing `git add`. From here, you type in `git status` to see what files have been edited. Since you have made changes and already typed in the command `git add .` you see the files that are staged for the commit and they will appear in green. Once you see that the files are staged for the commit, you commit by addig a message which will look like `git commit -m type message here`. Once everything has been commited, you then do `git push` to send he commits o the remote repo. 
+    `git push` is a command that sends the commits from the local repo to the remote repo (up to the cloud :Github). For example, in order for the commits to be sent from the local repo to the remote repo you being by typing `git add`. From here, you type in `git status` to see what files have been edited. Since you have made changes and already typed in the command `git add .` you see the files that are staged for the commit and they will appear in green. Once you see that the files are staged for the commit, you commit by addig a message which will look like `git commit -m type message here`. Once everything has been commited, you then do `git push` to send the commits to the remote repo. 
 * **git remote:**
    A remote in git is seen as a bookmark for other repositories from which the user may wish to pull or push the code. The repository that was bookmarked may be on your local computer at a different folder, in a remote server or it might be the repository itself. There are two git commands that consist of `git remote`. The first command that consists of git remote is `git remote add origin URL`. This command allows you to add the remote repo as opposed to editing or removing an existing one. 
    The second command that consists of `git remote`is known as `git remote -v`. This command allows the user to set up a connection between the current repository and the external one (the one that lives on github).
@@ -98,7 +98,7 @@ your computer only. If the key matches then you are granted acces. The following
 ---
 
 ## Error Handling
- * During the process of coding, many errors can be made. Such errors can include that you `init` in the wrong directory or you might want to      completely remove a repository. If you ever init in the wrong directory, you can simply just type : **`rm -rf .git`**
+ * During the process of coding, many errors can be made. Such errors can include that you `init` in the wrong directory or you might want to completely remove a repository. If    you ever `init` in the wrong directory, you can simply just type : **`rm -rf .git`**
  * If you want to completely remove the remote repository, you type in the command : **`git remote rm`**
  * To delete the local repository, you navigate to `~/workspce` and only if you have pushed to github you type in the command **`rm -rf "your repo-name"`**.(You type the name
   of your repo).
