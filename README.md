@@ -97,7 +97,6 @@ your computer only. If the key matches then you are granted acces. The following
  * To undo `git commit` you will have to type in  `git reset HEAD^`.
 ---
 ## Error Handling
- *  During the process of coding, many errors can be made. Such errors can include that you `init` in the wrong directory or you might want to     completely remove a repository. If you ever 
-   init in the wrong directory, you can simply just type : **`rm -rf .git`**
- * If you want to completely remove a repository (remote), you type in the command : **`git remote rm`**
- * 
+ * During the process of coding, many errors can be made. Such errors can include that you `init` in the wrong directory or you might want to      completely remove a repository. If you ever init in the wrong directory, you can simply just type : **`rm -rf .git`**
+ * If you want to completely remove the remote repository, you type in the command : **`git remote rm`**
+ * To delete the local repository, you type in the command `rm -rf .git`. Using  `.git` is what will remove the local repository.
