@@ -31,7 +31,7 @@ to Github without needing your username or password. SSH keys come in pairs. One
 your computer only. If the key matches then you are granted acces. The following steps will guide you on how to setup your SSH key. **Once you setup your SSH key once, you will not have to do it again!**
   
  **SSH Key Setup** :
- * go into your github account
+ * Go into your github account
  * On the top-right corner press on your profile icon and then press on settings
  * When you see the left side bar press press on SSH and GPG
  * Then create a new SSH key (you shouls see the icon "new SSH key/Press on that")
@@ -52,7 +52,7 @@ your computer only. If the key matches then you are granted acces. The following
  2. Cd into workspace (cd ~/workspce)
  3. Make a new directory called first-repo (mkdir first-repo)
  4. Go into the new directory that was made (cd first-repo)
- 5. Then, git init 
+ 5. Then `git init` 
  6. Once git init has been added to the terminal, you can add a README file by using touch (touch README.md)
  7. Then, open the README file and type in "This is my first repo"
  8. Once this has been done, save, add the changes, and commit
