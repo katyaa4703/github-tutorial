@@ -100,7 +100,7 @@ your computer only. If the key matches then you are granted acces. The following
 ## Error Handling
  * During the process of coding, many errors can be made. Such errors can include that you `init` in the wrong directory or you might want to      completely remove a repository. If you ever init in the wrong directory, you can simply just type : **`rm -rf .git`**
  * If you want to completely remove the remote repository, you type in the command : **`git remote rm`**
- * To delete the local repository, you navigate to `~/workspce` and only if you have pushed to github you type in the command `rm -rf "your repo-name"`.(You type the name
+ * To delete the local repository, you navigate to `~/workspce` and only if you have pushed to github you type in the command **`rm -rf "your repo-name"`**.(You type the name
   of your repo).
  * If you have a local and remote repository and you want to rename a remote repository, you first complete the previous bullet point that was listed. 
    Then you go ahead and rename your repo in github. You press settings and where it says "repository name" you rename the repository. 
@@ -113,7 +113,7 @@ your computer only. If the key matches then you are granted acces. The following
   "Clone or download". Make sure it says **SSH!**. If it does not say **SSH** click on where it says "**use SSH**". Then click on the little button to copy the link.From here,
    go into your c.9 and on the terminal type in the command `git clone` and after the `clone`, paste the url. 
  * Fork : Forking is when coders make a copy of someone else's work to start their own independent work in it. This creates a seperate piece of code/software. In order to beging,
-   when you fork someone else's repo you have to remote a copy of **THEIR** **remote** repo. Then you can clone your remote to your local machine. From here you will have the permission to push to your remote. To begin forking, you press on the link to someone else's github repository. Then ,press on the icon that says "fork" from there, you will have to clone. You then copy the **SSH** url just like you did with yours, go to your cloud 9 and `git clone "paste url here"`. From here, you can push your changes up to your remote and you will see them on Github!.
+   when you fork someone else's repo you have to remote a copy of **THEIR** **remote** repo. Then you can clone your remote to your local machine. From here you will have the permission to push to your remote. To begin forking, you press on the link to someone else's github repository. Then ,press on the icon that says "fork" from there, you will have to clone. You then copy the **SSH** url just like you did with yours, go to your cloud 9 and `git clone "paste url here"`. From here, you can push your changes up to your remote and you will see them on Github!
 
 
 
